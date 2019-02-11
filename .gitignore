@@ -1,0 +1,13 @@
+.idea
+web/node_modules
+web/homework-app/public/editor-md/
+web/online-coding-quiz-app/public/editor-md/
+web/online-Language-quiz-app/public/editor-md/
+web/basicQuiz-app/public/editor-md/
+web/subjective-app/public/editor-md/
+web/student-web/public/editor-md/
+web/instructor-web/public/editor-md/
+.DS_Store
+/.idea
+/热身-入职前培训/TestPaper/TestPaper.iml
+/热身-入职前培训/TestPaper/.idea
