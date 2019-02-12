@@ -3,53 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>统一建模语言理论测试</title>
+    <link type="text/css" rel="stylesheet" href="index.css"/>
 </head>
 <body>
 <form>
-    <div>
+    <div class="top">
         <h1>统一建模语言理论测试</h1>
-        <table cellspacing="10">
-            <tr>
-                <th align="left">考试科目:</th>
-                <td align="left">统一建模语言</td>
-                <th align="left">时间:</th>
-                <td align="left">100分钟</td>
-                <th align="left">得分:</th>
-                <td align="left">100</td>
-            </tr>
-            <tr>
-                <th align="left">班级:</th>
-                <td align="left">
-                    <input value="1班"/>
-                </td>
-                <th align="left">学号:</th>
-                <td align="left">
-                    <input value="001"/>
-                </td>
-                <th align="left">姓名:</th>
-                <td align="right">
-                    <input value="王小闹"/>
-                </td>
-            </tr>
-        </table>
+        <div class="top-title">
+            <div class="title-left">考试科目: 统一建模语言</div>
+            <div class="title-center">时间: 100分钟</div>
+            <div class="title-right">得分: 100</div>
+        </div>
+        <div class="top-title">
+            <div class="title-left">班级（必填）: <input value="1班"/></div>
+            <div class="title-center">学号（必填）: <input value="001"/></div>
+            <div class="title-right">姓名（必填）: <input value="王小闹"/></div>
+        </div>
     </div>
-    <div>
-        <h1>一、填空题(每空5分，共20分)</h1>
+    <div class="content">
+        <div class="content-title">一、填空题(每空5分，共20分)</div>
         <ol>
             <li>
-                UML的中文全称是:
+                UML的中文全称是:<br/>
                 <input value="统一建模语言"/>
             </li>
+            <br/>
             <li>
-                对象最突出的特征是:
+                对象最突出的特征是:<br/>
                 <input value="封装性"/>
                 <input value="继承性"/>
                 <input value="多态性"/>
             </li>
         </ol>
     </div>
-    <div>
-        <h1>二、选择题(每题10分，共20分)</h1>
+    <div class="content">
+        <div class="content-title">二、选择题(每题10分，共20分)</div>
         <ol>
             <li>
                 UML与软件工程的关系是:
@@ -96,8 +84,8 @@
             </li>
         </ol>
     </div>
-    <div>
-        <h1>三、多择题(每题10分，共20分)</h1>
+    <div class="content">
+        <div class="content-title">三、多择题(每题10分，共20分)</div>
         <ol>
             <li>
                 用例的粒度分为以下哪三种:
@@ -144,8 +132,8 @@
             </li>
         </ol>
     </div>
-    <div>
-        <h1>四、判断题(每题10分，共20分)</h1>
+    <div class="content">
+        <div class="content-title">四、判断题(每题10分，共20分)</div>
         <ol>
             <li>
                 用例图只是用于和客户交流和沟通的,用于确定需求。
@@ -167,8 +155,8 @@
             </li>
         </ol>
     </div>
-    <div>
-        <h1>五、简答题(每题20分，共20分)</h1>
+    <div class="content">
+        <div class="content-title">五、简答题(每题20分，共20分)</div>
         <ol>
             <li>
                 简述什么是模型以及模型的表现形式?
@@ -178,7 +166,7 @@
             </li>
         </ol>
     </div>
-    <div>
+    <div class="submit">
         <button type="submit">计算分数</button>
     </div>
 </form>

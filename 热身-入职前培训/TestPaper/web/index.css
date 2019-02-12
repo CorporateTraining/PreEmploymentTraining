@@ -6,3 +6,53 @@ body{
 .top h1{
     text-align: center;
 }
+.top-title{
+    width: 100%;
+    border: 1px solid gainsboro;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.title-left{
+    width: 33%;
+    float: left;
+}
+.title-center{
+    width: 33%;
+    float: left;
+}
+.title-right{
+    width: 33%;
+    float: right;
+}
+input{
+    height: 20px;
+}
+.content {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.content-title{
+    background-color: ghostwhite;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+}
+.submit{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.submit button{
+    width: 100px;
+    height: 25px;
+    background-color: #08c;
+    color: white;
+    border-width: 0;
+    border-radius: 2px;
+}
