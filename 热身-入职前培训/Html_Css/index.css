@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    background: #80a8cc;
+}
+
+.content {
+    margin: 50px;
+    background: #fcf9f4;
+    color: #96918e
+}
+
+.top {
+    height: 100px;
+    line-height: 100px;
+}
+
+.top-vertical {
+    height: 100px;
+    width: 1px;
+    border: 1px solid #eae7e2;
+}
+
+.top-img {
+    float: left;
+    margin-left: 150px;
+}
+
+.top-img img {
+    height: 50px;
+}
+
+.top-login {
+    float: right;
+    line-height: 100px;
+}
+
+.button {
+    border-radius: 5px;
+    color: #4d4e59;
+    background: #0000;
+    padding: 12px 30px 12px 30px;
+    border: solid #dad7d2 1px;
+    height: 40px;
+    width: 100px;
+    line-height: 20px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.button:hover {
+    color: #4d4e59;
+    text-decoration: none;
+}
+
+.top-menu {
+    width: 70%;
+    float: right;
+}
+
+.top-ul {
+    list-style: none;
+}
+
+.top-ul li {
+    margin: 0 20px;
+    float: left;
+}
+
+.picture {
+    background: url("top1.jpeg") no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    height: 794px;
+    color: #ffffff;
+}
+
+.picture-content {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 300px;
+
+}
+
+.picture-content h1 {
+    font-family: 'American SC', cursive;
+}
+
+.picture-button {
+    margin-left: 25%;
+}
+
+.tutor {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.picture-button .content-button {
+    float: left;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.mission {
+    height: 500px;
+}
+
+.content-button {
+    border-radius: 5px;
+    color: #4d4e59;
+    background: #0000;
+    padding: 12px 30px 12px 30px;
+    border: solid #dad7d2 1px;
+    height: 60px;
+    width: 270px;
+    line-height: 30px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.mission h1{
+    text-align: center;
+    margin-top: 150px;
+    color: #4d4e59;
+    font-size: 52px;
+    font-family: "American SC", cursive;
+    margin-bottom: 80px;
+}
+.mission p{
+    text-align: center;
+    color: #636471;
+    font-size: 20px;
+    font-family: "Open Sans", cursive;
+    margin-bottom: 80px;
+}
+.mission-button{
+    border-radius: 5px;
+    color: #636471;
+    padding: 10px 30px 12px 70px;
+    height: 40px;
+    width: 200px;
+    line-height: 20px;
+    margin: 0 auto;
+    background-color: #ffcd62;
+}
+.mission-donate{
+    margin: 0 auto;
+}
