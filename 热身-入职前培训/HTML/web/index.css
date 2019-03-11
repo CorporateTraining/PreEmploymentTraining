@@ -1,0 +1,8 @@
+body{
+    border: 2px solid red;
+    padding: 0 30px;
+    margin: 0;
+}
+.top h1{
+    text-align: center;
+}
